@@ -23,7 +23,7 @@ function App() {
       <Header />
       <main>
         <Routes>
-          <Route path='/' element={<ArticleContainer />} />
+          <Route path='/' element={<ArticleContainer articles={articles} />} />
         </Routes>
       </main>
     </>
