@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import Header from '../Header/Header';
+import ArticleContainer from '../ArticleContainer/ArticleContainer';
 
 import { getData } from '../../apiCalls/apiCalls';
 
@@ -20,9 +21,11 @@ function App() {
   return (
     <>
       <Header />
-      <Routes>
-        <Route path='/' element={<p>something</p>} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path='/' element={<ArticleContainer />} />
+        </Routes>
+      </main>
     </>
   );
 }
