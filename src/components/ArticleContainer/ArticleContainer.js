@@ -2,9 +2,9 @@ import Card from '../Card/Card';
 
 import './ArticleContainer.css';
 
-function ArticleContainer({ articles }) {
+function ArticleContainer({ articles, setSelectedArticle }) {
   const cards = articles?.map((article, index) => {
-    return <Card article={article} />
+    return <Card key={index} article={article} setSelectedArticle={setSelectedArticle} />
   });
 
   return (
