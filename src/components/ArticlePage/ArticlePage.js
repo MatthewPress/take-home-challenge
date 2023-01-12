@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import { formatDate } from '../../utilities/utilities';
 
 import './ArticlePage.css';
@@ -8,6 +10,9 @@ function ArticlePage({ selectedArticle }) {
 
   return (
     <section className='article--container'>
+      <Link to='/'>
+        <button>Back</button>
+      </Link>
       <h2 className='article-title'>{selectedArticle.title}</h2>
       <img className='article-image' src={selectedArticle.multimedia[0].url} alt={selectedArticle.multimedia[0].caption} />
       <p className='article-text' >{selectedArticle.byline}</p>
