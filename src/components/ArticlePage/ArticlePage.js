@@ -9,7 +9,7 @@ function ArticlePage({ selectedArticle }) {
   return (
     <section className='article--container'>
       <h2 className='article-title'>{selectedArticle.title}</h2>
-      <img className='article-image' src={selectedArticle.multimedia[0].url} />
+      <img className='article-image' src={selectedArticle.multimedia[0].url} alt={selectedArticle.multimedia[0].caption} />
       <p className='article-text' >{selectedArticle.byline}</p>
       <p className='article-text' >{returnedDate}</p>
       <p className='article-text' >Abstract: {selectedArticle.abstract}</p>
