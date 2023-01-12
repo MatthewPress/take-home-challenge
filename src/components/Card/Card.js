@@ -7,13 +7,29 @@ function Card({ article, setSelectedArticle }) {
 
   const handleSelection = (event) => {
     setSelectedArticle(article);
-    navigate(`/${article.uri.slice(14)}`)
+    navigate(`/article/${article.uri.slice(14)}`)
+  }
+
+  let abstract;
+  if (window.innerWidth > 800) {
+    abstract = article.abstract;
+  } else {
+    abstract = '';
   }
 
   return (
-    <article onClick={(event) => handleSelection(event)}>
-      <h3>{article.title}</h3>
-    </article>
+    <>
+      <article onClick={(event) => handleSelection(event)}>
+        <div className='card-image--container'>
+          <img className='card-image' src={article.multimedia[0].url} />
+        </div>
+        <div className='card-text--container'>
+          <h3>{article.title}</h3>
+          <p>{abstract}</p>
+        </div>
+      </article>
+      <hr />
+    </>
   )
 }
 
