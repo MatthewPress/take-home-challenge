@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- HEADER -->
+  <h3 align="center">Yeet Times</h3>
+  <p align="center">
+    NYtimes Top Stories Viewer
+    <br />
+    <a href="https://github.com/MatthewPress/take-home-challenge"><strong>Explore the docs »</strong></a>
+</div>
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#setup">Setup</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#notes">Notes</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-In the project directory, you can run:
+## About The Project
 
-### `npm start`
+[![Product Demo][product-demo]](./src/assets/images/product-demo.gif)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is a web application to display top stories from the New York Times. It was created for the Turing School of Software and Design's practice take home challenge. The overall goal was to demonstrate what we have learned after 6 months in the program when given 8 hours to complete a project.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The project specs can be found [here](https://mod4.turing.edu/projects/take_home/).
 
-### `npm test`
+### Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* JavaScript
+* CSS
+* JSX
+* React
+* React Router
+* Cypress
+* dayjs
 
-### `npm run build`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- In your terminal, navigate to the directory you want to store this repo
+- `git clone git@github.com:MatthewPress/take-home-challenge.git`
+- `npm install`
+- `npm run start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Browsing top stories from the New York Times
+- Filter based on topics
+- See a general overview AND a less general overview (wow! crazy) of each article
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[![Filter Demo][filter-demo]](./src/assets/images/filter-demo.gif)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Notes
 
-## Learn More
+I work on this project for 8 hours. In developing the project, I adhered to TDD and OOP principles and considered UI/UX in the design.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Project Board](https://github.com/users/MatthewPress/projects/6)
+- [Wireframes](https://www.figma.com/file/hzy8VXawD7dWZqivgPuill/Untitled?node-id=0%3A1&t=H8qyVAJ8Ihy3Plxo-0)
+- [Architecture Design](https://www.figma.com/file/Xgvje4Q4XQRpWrJFKCEwrO/Take-Home-Challenge?node-id=0%3A1&t=0cwAFGqr1jbkmzeP-0)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Functionality includes...
+- Filtering stories by topic
+- Switching between a list of all stories and a more detailed view of a single stories
 
-### Code Splitting
+### Wins:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* I like how quickly the project came together and I didn't feel like I got hung up on anything for too long.
 
-### Analyzing the Bundle Size
+### Challenges:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* Trying to query the NYTimes API for the complete information of a single story
 
-### Making a Progressive Web App
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Roadmap
 
-### Advanced Configuration
+- [ ] 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Deployment
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Matthew Press | [LinkedIn](https://linkedin.com/in/matthew-press-813961246/) | [GMail](mailto:press.matt14@gmail.com)
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- MARKDOWN LINKS & IMAGES -->
+[product-demo]: ./src/assets/images/product-demo.gif
+[filter-demo]: ./src/assets/images/filter-demo.gif
