@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  margin: 1rem;
+}
+
+.nav-title {
+  font-weight: 300;
+  font-size: 1.3rem;
+  margin-right: 10px;
+}
+
+ul {
+  display: flex;
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+a {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #dc143c;
+}

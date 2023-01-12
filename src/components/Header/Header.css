@@ -1,0 +1,29 @@
+h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  color: #000000;
+  text-align: center;
+  margin: 1rem;
+}
+
+.line {
+  background-color:#000000;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.first-line {
+  width: 95%;
+  height: 0.4rem;
+}
+
+.second-line {
+  width: 90%;
+  height: 0.2rem;
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 2rem;
+  }
+}

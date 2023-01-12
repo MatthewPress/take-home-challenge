@@ -1,0 +1,25 @@
+.article--container {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-title {
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+.article-image {
+  height: auto;
+  width: 60%;
+  margin: 1rem auto;
+}
+
+.article-text {
+  margin: 0.5rem;
+}
+
+@media screen and (max-width: 400px) {
+  .article-title {
+    font-size: 1.5rem;
+  }
+}
